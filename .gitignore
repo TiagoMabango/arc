@@ -1,0 +1,4 @@
+vendor/
+*.lock
+themes/admin/assets/plugins/
+themes/admin/assets/dist/
