@@ -1,5 +1,5 @@
 <li class="nav-item has-treeview">
-                <a href="index.php" class="nav-link text-white">
+                <a href="<?= url("principal")?>" class="nav-link text-white">
                     <i class="nav-icon fas fa-home"></i>
                     <p>
                     Pagina Inicial
@@ -8,7 +8,7 @@
             </li>
 
             <li class="nav-item has-treeview">
-                <a href="revendedores.php" class="nav-link text-white">
+                <a href="<?= url("revendedores")?>" class="nav-link text-white">
                     <i class="nav-icon fas fa-users"></i>
                     <p>
                     Revendedores
@@ -18,7 +18,7 @@
 
             
             <li class="nav-item has-treeview">
-                <a href="produtos.php" class="nav-link text-white">
+                <a href=" <?= url("produtos")?>" class="nav-link text-white">
                     <i class="nav-icon fas fa-shopping-cart"></i>
                     <p>
                     Produtos
@@ -28,7 +28,7 @@
 
 
             <li class="nav-item has-treeview">
-                <a href="login.php" class="nav-link text-white">
+                <a href="<?= url()?>" class="nav-link text-white">
                     <i class="nav-icon fas fa-sign-out-alt"></i>
                     <p>
                     Sair

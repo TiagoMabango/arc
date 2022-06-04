@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aplicação de Controle de Revendedores</title>
 
-<link rel="stylesheet" href="assets/plugins/fontawesome-free/css/all.min.css">
-<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
-<link rel="stylesheet" href="assets/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
-<link rel="stylesheet" href="assets/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
-<link rel="stylesheet" href="assets/plugins/jqvmap/jqvmap.min.css">
-<link rel="stylesheet" href="assets/dist/css/adminlte.min.css">
-<link rel="stylesheet" href="assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
-<link rel="stylesheet" href="assets/plugins/daterangepicker/daterangepicker.css">
-<link rel="stylesheet" href="assets/plugins/summernote/summernote-bs4.css">
+<link rel="stylesheet" href=" <?= theme("assets/plugins/fontawesome-free/css/all.min.css")?> ">
+<link rel="stylesheet" href="<?= theme("https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css")?>">
+<link rel="stylesheet" href="<?= theme("assets/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css")?>">
+<link rel="stylesheet" href="<?= theme("assets/plugins/icheck-bootstrap/icheck-bootstrap.min.css")?>">
+<link rel="stylesheet" href="<?= theme("assets/plugins/jqvmap/jqvmap.min.css")?>">
+<link rel="stylesheet" href="<?= theme("assets/dist/css/adminlte.min.css")?>">
+<link rel="stylesheet" href="<?= theme("assets/plugins/overlayScrollbars/css/OverlayScrollbars.min.css")?>">
+<link rel="stylesheet" href="<?= theme("assets/plugins/daterangepicker/daterangepicker.css")?>">
+<link rel="stylesheet" href="<?= theme("assets/plugins/summernote/summernote-bs4.css")?>">
 
 
 </head>
@@ -42,7 +42,7 @@
 
         <div class="user-panel mt-3 pb-3 mb-3 d-flex">
             <div class="image">
-            <img src="assets/images/devT.jpg" class="img-circle elevation-2" alt="User Image">
+            <img src=" <?= theme("assets/images/devT.jpg")?>" class="img-circle elevation-2" alt="User Image">
             </div>
             <div class="info">
             <a href="#" class="d-block text-white"> Tiago Mabango</a>
@@ -355,26 +355,25 @@
 </div>
 
 
-<script src="assets/plugins/jquery/jquery.min.js"></script>
-<script src="assets/plugins/jquery-ui/jquery-ui.min.js"></script>
+<script src="<?= theme("assets/plugins/jquery/jquery.min.js")?>"></script>
+<script src="<?= theme("assets/plugins/jquery-ui/jquery-ui.min.js")?>"></script>
 <script>
   $.widget.bridge('uibutton', $.ui.button)
 </script>
-<script src="assets/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-<script src="assets/plugins/sweetalert2/sweetalert.min.js"></script>
-<script src="assets/plugins/jqvmap/jquery.vmap.min.js"></script>
-<script src="assets/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
-<script src="assets/plugins/jquery-knob/jquery.knob.min.js"></script>
-<script src="assets/plugins/moment/moment.min.js"></script>
-<script src="assets/plugins/daterangepicker/daterangepicker.js"></script>
-<script src="assets/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
-<script src="assets/plugins/summernote/summernote-bs4.min.js"></script>
-<script src="assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
-<script src="assets/dist/js/adminlte.js"></script>
-<script src="assets/dist/js/pages/dashboard.js"></script>
-<script src="assets/plugins/chart.js/Chart.min.js"></script>
-<script src="assets/dist/js/demo.js"></script>
+<script src="<?= theme("assets/plugins/bootstrap/js/bootstrap.bundle.min.js")?>"></script>
+<script src="<?= theme("assets/plugins/sweetalert2/sweetalert.min.js")?>"></script>
+<script src="<?= theme("assets/plugins/jqvmap/jquery.vmap.min.js")?>"></script>
+<script src="<?= theme("assets/plugins/jqvmap/maps/jquery.vmap.usa.js")?>"></script>
+<script src="<?= theme("assets/plugins/jquery-knob/jquery.knob.min.js")?>"></script>
+<script src="<?= theme("assets/plugins/moment/moment.min.js")?>"></script>
+<script src="<?= theme("assets/plugins/daterangepicker/daterangepicker.js")?>"></script>
+<script src="<?= theme("assets/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js")?>"></script>
+<script src="<?= theme("assets/plugins/summernote/summernote-bs4.min.js")?>"></script>
+<script src="<?= theme("assets/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js")?>"></script>
+<script src="<?= theme("assets/dist/js/adminlte.js")?>"></script>
+<script src="<?= theme("assets/dist/js/pages/dashboard.js")?>"></script>
+<script src="<?= theme("assets/plugins/chart.js/Chart.min.js")?>"></script>
+<script src="<?= theme("assets/dist/js/demo.js")?>"></script>
 
 
 <script>
