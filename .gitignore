@@ -1,4 +1,4 @@
+.plugins/
+.dist/
 vendor/
 *.lock
-themes/admin/assets/plugins/
-themes/admin/assets/dist/
