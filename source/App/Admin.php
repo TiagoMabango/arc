@@ -32,7 +32,8 @@ class Admin extends Controller{
     }
 
     public function error(array $data): void{
-        echo "<h1>ERROR</h1>";
-        var_dump($data);
+        
+        echo $this->view->render("not_found",[
+            "title"=> "404-Página não encontrado"]);
     }
 }
