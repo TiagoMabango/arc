@@ -223,7 +223,7 @@
                       </ul>
                     </div>
                     <div class="col-5 text-center">
-                      <img src="assets/images/devT.jpg" alt="" class="img-circle img-fluid">
+                      <img src=" <?= theme("/assets/images/devT.jpg")?>" alt="" class="img-circle img-fluid">
                     </div>
                   </div>
                 </div>

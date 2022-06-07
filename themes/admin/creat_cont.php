@@ -39,7 +39,7 @@
   <div class="login-logo ">
     <a href="#" class="text-white"><b>A</b>CR</a>
   </div>
-  <!-- /.login-logo -->
+
   <div class="row">
     <div class="card col-lg-12">
       <div class="card-body register-card-body ">
@@ -113,9 +113,6 @@
             </div>
           </div>
 
-          
-          
-            <!-- /.col -->
             <div class="col-4">
               <button type="submit"  name="cadastrar" class="btn btn-primary btn-block">Cadastrar</button>
             </div>
@@ -124,12 +121,12 @@
 
         <div class="social-auth-links text-center">
           <p>- OU -</p>
-        <!-- /.social-auth-links -->
+
         <p class="mb-0">
           <a href=" <?= url()?>"  class="text-center">Já tenho a minha Loja Registada</a>
         </p>
       </div>
-      <!-- /.login-card-body -->
+      
     </div>
   </div>
 
