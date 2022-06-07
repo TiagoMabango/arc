@@ -23,7 +23,7 @@
     }
 
     .container {
-      max-width: 52rem;
+      max-width: 62rem;
       margin: 4rem auto;
 
       display: flex;
