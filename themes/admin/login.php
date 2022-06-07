@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aplicação de Controle de Revendedores</title>
 
-<link rel="stylesheet" href="<?= theme("/assets/plugins/fontawesome-free/css/all.min.css");?>">
-<link rel="stylesheet" href="<?= theme("/assets/plugins/icheck-bootstrap/icheck-bootstrap.min.css"); ?> ">
-<link rel="stylesheet" href=" <?= theme("/assets/dist/css/adminlte.min.css"); ?>">
+    <link rel="stylesheet" href="<?= theme("/assets/plugins/fontawesome-free/css/all.min.css");?>">
+    <link rel="stylesheet" href="<?= theme("/assets/plugins/icheck-bootstrap/icheck-bootstrap.min.css"); ?> ">
+    <link rel="stylesheet" href=" <?= theme("/assets/dist/css/adminlte.min.css"); ?>">
 
 
 <style>
@@ -60,7 +60,7 @@
       <!-- /.social-auth-links -->
 
       <p class="mb-1 text-center">
-        <a href="#">Cadastrar a minha Loja</a>
+        <a href=" <?= url("creat_cont")?>">Cadastrar a minha Loja</a>
       </p>
     </div>
 
@@ -68,9 +68,6 @@
   </div>
 </div>
 <!-- /.login-box -->
-
-
-
 
 <script src=" <?=theme("/assets/plugins/jquery/jquery.min.js"); ?> "></script>
 <script src=" <?=theme("/assets/plugins/bootstrap/js/bootstrap.bundle.min.js"); ?>"></script>

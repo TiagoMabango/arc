@@ -31,6 +31,11 @@ class Admin extends Controller{
             "title"=> "ACR- Controle Geral dos Revendedores"]);
     }
 
+    public function creat_cont(): void{
+        echo $this->view->render("creat_cont",[
+            "title"=> "ACR- Cria a sua conta"]);
+    }
+
     public function error(array $data): void{
         
         echo $this->view->render("not_found",[

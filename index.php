@@ -20,6 +20,7 @@ $route->namespace("Source\App");
 
  $route->namespace("Source\App");
  $route->get("/","Admin:login");
+ $route->get("/creat_cont","Admin:creat_cont");
  $route->get("/principal","Admin:principal");
  $route->get("/produtos","Admin:produtos");
  $route->get("/revendedores","Admin:revendedores");

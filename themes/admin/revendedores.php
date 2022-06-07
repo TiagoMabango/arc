@@ -172,10 +172,10 @@
 
                         <div class="form-group">
                           <label for="sector" >Sexo </label>
-                            <select class="form-control" name="motivo_avaria" id="select">
+                            <select class="form-control" name="sex" id="select">
                               <option > Selecione o Sexo</option>
-                              <option value="Avaria"> Masculino</option>
-                              <option value="Acidente"> Femenino</option>
+                              <option value="M"> Masculino</option>
+                              <option value="F"> Femenino</option>
                           </select>
                           </div>
 
