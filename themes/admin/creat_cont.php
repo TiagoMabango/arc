@@ -55,7 +55,7 @@
           </div>
 
 
-          <div class="input-group form-group col-lg-4">
+          <div class="input-group form-group col-lg-4"> 
             <input type="text" class="form-control" placeholder="Digite o seu Endereço" name = "address">
             <div class="input-group-append">
               <div class="input-group-text">
@@ -79,7 +79,7 @@
           </div>
 
           <div class="input-group form-group col-lg-4">
-            <input type="password" class="form-control" placeholder="Digite a sua Senha" name= "senha">
+            <input type="password" class="form-control" placeholder="Digite a sua Senha" name= "password">
             <div class="input-group-append">
               <div class="input-group-text">
               </div>
@@ -87,7 +87,7 @@
           </div>
 
           <div class="input-group form-group col-lg-4">
-            <input type="password" class="form-control" placeholder="Digite a novamente sua Senha" name= "senhaConfirme">
+            <input type="password" class="form-control" placeholder="Digite a novamente sua Senha" name= "confirmPassword">
             <div class="input-group-append">
               <div class="input-group-text">
               </div>
@@ -126,7 +126,7 @@
           <a href=" <?= url()?>"  class="text-center">Já tenho a minha Loja Registada</a>
         </p>
       </div>
-      
+
     </div>
   </div>
 
