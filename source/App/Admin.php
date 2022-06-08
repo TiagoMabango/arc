@@ -26,12 +26,14 @@ class Admin extends Controller{
             "title"=> "ACR- Controle Geral dos Produtos"]);
     }
 
+    
     public function revendedores(): void{
         echo $this->view->render("revendedores",[
             "title"=> "ACR- Controle Geral dos Revendedores"]);
     }
 
-    public function creat_cont(): void{
+    public function creat_cont(?array $data): void{
+        
         echo $this->view->render("creat_cont",[
             "title"=> "ACR- Cria a sua conta"]);
     }

@@ -45,7 +45,7 @@
       <div class="card-body register-card-body ">
         <p class="login-box-msg">Crie a sua Conta e Gerencie a tua <strong> Loja</strong></p>
 
-        <form  method="POST" enctype="multipart/form-data" class="row">
+        <form  method="post" action=" <?= url("/creat_cont")?>" enctype="multipart/form-data" class="row">
           <div class="input-group form-group col-lg-8">
             <input type="text" class="form-control" name="user" placeholder="Digite o seu nome Competo">
             <div class="input-group-append">
